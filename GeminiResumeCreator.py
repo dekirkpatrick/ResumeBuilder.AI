@@ -7,7 +7,6 @@ from MakeResume import makeResume,makeCoverLetter
  
 
 # stepCount = 0
-Key = 'AIzaSyDSprxt-5WkB5WCtt0Ie9cbbfkCojVTr5M'
 genai.configure(api_key=Key)
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
 chat = model.start_chat(history=[])
